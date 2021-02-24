@@ -1,0 +1,42 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.wrapper {
+  text-align: center;
+  padding: 50px 50px;
+  background-image: url(https://cutewallpaper.org/21/restaurant-wallpapers/Custom-Wallpaper-Mural-for-Restaurants-Various-Beans-.jpg);
+  margin-bottom: 20px;
+  color: white;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h1 {
+  font-size: 100px;
+}
+
+.card {
+  padding: 20px 20px;
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 4px 4px 2px #F3F3F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
